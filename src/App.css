@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+.Backgra{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+  position: absolute; 
+}
+
+.mylogo{
+  display: flex;
+  position: relative;
+  
+}
+
+.textlogin_{
+  text-align: center;
+  position: relative;
+  font-family: 'Dosis';
+  letter-spacing: 6px;
+  font-size: 35px;
+}
+
+
+.textsty_{
+  font-size: 30px;
+}
+
+.botonlog_{
+  background-color: black;
+  padding: 0%;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Dosis';
+  font-size: 15px;
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-left: 60px;
+  padding-bottom: 10px;
+  padding-right: 60px;
+  box-shadow: 8px 8px 8px black;
+  
+  /* margin: 10px;
+    background-color: #333333;
+    border: 0px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px black;
+    color: white;
+    font-family: 'Dosis';
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    line-height: 0.8;
+    text-align: center;
+    text-decoration: none; */
+  
+}
+.input_{
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-left: 60px;
+  padding-bottom: 10px;
+  padding-right: 60px;
+  box-shadow: 8px 8px 8px black;
+}
+.fuente_form{
+  text-align: flex-start;
+  position: relative;
+  font-family: 'Dosis';
+  letter-spacing: 6px;
+  font-size: 35px;
+  padding: 1cm;
+
+
+}
+.formulario_registro{
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-left: 60px;
+  padding-bottom: 10px;
+  padding-right: 60px;
+  box-shadow: 8px 8px 8px black;
+}
+.registro_{
+  background-color: black;
+  padding: 0%;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Dosis';
+  font-size: 15px;
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-left: 60px;
+  padding-bottom: 10px;
+  padding-right: 60px;
+  box-shadow: 8px 8px 8px black;
+}
+
+
