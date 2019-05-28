@@ -1,14 +1,25 @@
 import React, { Component } from 'react';
-import Header from '../components/Header'
-import Contenidohome from '../components/Contenidohome'
+import Contenidohome from '../components/Contenidohome';
+import Costs from '../components/Costs';
+import Skills from '../components/Skills';
+
+
+
 
 
 class Home extends Component {
+
+  
     render() {
         return (
             <div>
-                <Header/>
-                <Contenidohome/>
+                <Contenidohome/>   
+                <Skills/>   
+                <Costs/>
+                
+               
+            
+                
                 
 
             </div>
