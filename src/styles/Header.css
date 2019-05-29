@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
 .headerlog{
-    width: 70px;
-  
+    width: 100px;
 }
 .botones{
     margin-right: 20px;
+}
+.font_{
+    font-family: 'Comfortaa', cursive;
 }

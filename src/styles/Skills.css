@@ -1,0 +1,32 @@
+.bgski{
+    background-color: #2196F3;
+    position: relative;
+    padding-bottom: 10%
+    
+
+}
+.container{
+    font-family: 'Comfortaa', cursive; 
+   
+
+}
+.formatoicon{
+    width: 20%;
+       
+}
+.title_{
+    font-family: 'Comfortaa', cursive; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.container_{
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;      
+    
+}
+.salto{
+    height: 200px;
+}

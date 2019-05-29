@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+.backcost{ 
+    background-image: url(../images/backhome.jpg);
+    background-size: 10;
+    font-family: 'Comfortaa', cursive;
+    padding: 100px
+    
+
+}
+.titlecosts{
+    padding: 20px;
+}
+.promos{
+    width: 50%;
+    margin: 25%;
+}
+.titlecard{
+    background-color: #2196F3;
+    
+}

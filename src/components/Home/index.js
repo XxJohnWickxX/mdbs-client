@@ -20,7 +20,7 @@ class Home extends Component {
         })
     }
 
-    render(){
+    render(props){
         return(
             <div className="App">
             {this.state.Doctor.map(Doctor => <h1>{Doctor.name}</h1>)}

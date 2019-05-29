@@ -1,0 +1,33 @@
+
+.Backgra{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    position: absolute; 
+  }
+    
+  .textlogin_{
+    text-align: center;
+    position: relative;
+    font-family: 'Comfortaa', cursive; 
+    letter-spacing: 6px;
+    font-size: 2vw
+  }
+  
+  .textsty_{
+    padding-top: 14%;
+    padding-bottom: 3%;
+    font-size: 5vw;
+  }
+  .input_{
+    font-size: 2vw;
+    border-radius: 40px;
+    box-shadow: 8px 8px 8px rgb(109, 108, 108);
+  }
+  .regisgo{
+    padding-top: 2%;
+  }
+  .regisgo_{
+    font-size: 2vw
+  }

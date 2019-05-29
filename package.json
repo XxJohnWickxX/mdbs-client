@@ -8,13 +8,17 @@
     "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.5",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "react-paypal-express-checkout": "^1.0.5",
+    "react-router-bootstrap": "^0.25.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,5 +29,9 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "proxy": "http://localhost:3002"
+  "homepage": "https://XxJohnWickxX.github.io/mdbs-client",
+  "proxy": "http://localhost:3002",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
