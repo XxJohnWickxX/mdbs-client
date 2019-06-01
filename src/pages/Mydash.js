@@ -56,7 +56,7 @@ class Mydash extends Component {
         })
       }
 
-    render(props) {
+    render() {
         return (
             <div>
               <section>
