@@ -11,7 +11,7 @@ import {Card, CardDeck} from 'react-bootstrap';
 import avatar from '../images/avatar.jpg';
 
 import axios from 'axios';
-// import Botonpay from './components/PayPal/PaypalButtonpay';
+
 
 
 const baseURL = `${process.env.REACT_APP_BASE_URL}/api/doctors/auth`
@@ -51,7 +51,7 @@ class Mydash extends Component {
         })
         .then(res => {
           console.log(res.data)
-          return res.data.this.setState
+          return res.data.this.setState()
           
         })
       }
