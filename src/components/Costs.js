@@ -12,7 +12,7 @@ class Costs extends Component {
             <div className="backcost">
 
                     <div className="titlecosts">
-                        <h1 class="text-center text-light" >Nuestros Planes</h1>
+                        <h1 className="text-center text-light" >Nuestros Planes</h1>
                     </div>
 
                 <CardGroup>
