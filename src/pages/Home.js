@@ -16,12 +16,6 @@ class Home extends Component {
                 <Contenidohome/>   
                 <Skills/>   
                 <Costs/>
-                
-               
-            
-                
-                
-
             </div>
         );
     }

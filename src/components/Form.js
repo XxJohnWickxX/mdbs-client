@@ -288,7 +288,7 @@ class Formulario extends Component {
                 label="Acepto los terminos y condiciones"
                 />
           </Form.Group>
-              <LinkContainer to="mydash">
+              <LinkContainer to="welcom">
               <Button  className="btn btn-primary" type="submit">Registrar</Button>
               </LinkContainer>
           </div>

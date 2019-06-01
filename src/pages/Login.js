@@ -73,10 +73,9 @@ handleSubmit = (event) => {
                       <Form.Label>Contraseña</Form.Label>
                       <Form.Control className="input_ form-control" type="password" name="logpass" placeholder="Recuerda nunca compartir tu contraseña" onChange={this.handleChange} />   
                     </Form.Group>
-                    
-                    
+                    <Link to="mydash">
                       <Button className="regisgo_" variant="primary" size="lg" type="submit">Entrar</Button>
-         
+                    </Link>
 
                   <div className="regisgo">
                   <p>¿Aun no estas registrado?</p>

@@ -4,7 +4,7 @@ import {Card} from 'react-bootstrap';
 
 import face from '../images/face.png'
 import twitt from '../images/twitt.png'
-import youtub from  '../images/youtub.png'
+import youtub from '../images/youtub.png'
 
 
 
@@ -12,22 +12,20 @@ class Footer extends Component {
     render() {
         return (
             
-            <div className="footercard_">
+            <div>
 
                 
                 <Card className="text-light">
                    
 
-                     <Card.ImgOverlay className="bg-primary">
-                         
-
-                       <Card.Title>Derechos reservados Iatros System SA de CV</Card.Title>
-                       <Card.Text>
-                           calle y numero
-                           ciudad y pais
-                           telefono
-                       </Card.Text>
-                       <Card.Text>Correo de contacto: micorreo@miempresa.com </Card.Text>
+                     <div className="footercard_">
+                       <Card.Title>Derechos reservados Iatros System SA de CV <br/>
+                       
+                           calle y numero <br/>
+                           ciudad y pais <br/>
+                           telefono <br/>
+                       
+                       Correo de contacto: micorreo@miempresa.com </Card.Title>
 
                     {/* ICONOS */}
                         <a href="https://es-la.facebook.com/">
@@ -40,7 +38,7 @@ class Footer extends Component {
                             <img className="foot" src={youtub} alt="youtube"/>
                         </a>
                     
-                    </Card.ImgOverlay>
+                    </div>
                 </Card>
                
             </div>
